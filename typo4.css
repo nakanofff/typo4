@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+@keyframes line{
+	0%{
+		left: -50%;	
+	}
+	100%{
+		left: 150%;
+	}
+}
+body{
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #145374;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+svg{
+	width: 60vw;
+	fill: #fff;
+}
+.line1{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 16%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+.line2{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 24%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 6.5s;
+	animation-iteration-count: infinite;
+	animation-delay: 3.2s
+}
+.line3{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 32%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-delay: 0.8s;
+}
+.line4{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 40%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 7.2s;
+	animation-iteration-count: infinite;
+	animation-delay: 6.4s;
+}
+.line5{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 48%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 6.8s;
+	animation-iteration-count: infinite;
+	animation-delay: 1.2s;
+}
+.line6{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 56%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-delay: 4.5s;
+}
+.line7{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 64%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-delay: 3s;
+}
+.line8{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 72%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-delay: 6s;
+}
+.line9{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 80%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-delay: 2.4s;
+}
+.line10{
+	width: 160px;
+	height: 3px;
+	background-color: #eaf5ff;
+	position: absolute;
+	top: 88%;
+	left: -50%;
+	animation-name: line;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-delay: 3.6s;
+}
